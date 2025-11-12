@@ -13,7 +13,9 @@
     {
       devShells = {
         ${system}.default = pkgs.mkShell {
-          packages = scripts;
+          packages = scripts ++ [
+            pkgs.bash-language-server
+          ];
         };
       };
     };
