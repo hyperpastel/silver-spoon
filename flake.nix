@@ -11,6 +11,9 @@
       scripts = import ./scripts { inherit pkgs; };
     in
     {
+
+      inherit scripts;
+
       devShells = {
         ${system}.default = pkgs.mkShell {
           packages = scripts ++ [
