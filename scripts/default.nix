@@ -7,6 +7,6 @@ in
 (builtins.map load [
   ./cf.nix
   ./qs.nix
-  ./mkdaily.nix
+  ./mknote.nix
   ./getfavicon
 ])
