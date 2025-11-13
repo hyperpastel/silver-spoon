@@ -8,4 +8,5 @@ in
   ./cf.nix
   ./qs.nix
   ./mkdaily.nix
+  ./getfavicon
 ])
