@@ -3,14 +3,11 @@
 
 using namespace std;
 
-using ll = long long;
-using ld = long double;
-
-using i64 = int64_t;
-using u64 = uint64_t;
+using ll = int64_t;
+using ld = uint64_t;
 
 template <class T> using pp = pair<T, T>;
-using ip = pp<int>;
+using ip = pp<ll>;
 
 template <class T> using vec = vector<T>;
 template <class T, size_t N> using arr = array<T, N>;

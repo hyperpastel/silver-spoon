@@ -5,7 +5,7 @@ let
 in
 
 (builtins.map load [
-  ./cf.nix
+  ./cf
   ./qs.nix
   ./mknote.nix
   ./getfavicon
